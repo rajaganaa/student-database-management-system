@@ -1,8 +1,11 @@
 # rajaganaa_mysql_project
 # student course details
 
-create database project_1;
-use project_1;
+-- Professional Setup: Clean slate every time
+DROP DATABASE IF EXISTS project_1;
+CREATE DATABASE project_1;
+USE project_1;
+
 
 CREATE TABLE STUDENT (
   studentId INT PRIMARY KEY AUTO_INCREMENT,
